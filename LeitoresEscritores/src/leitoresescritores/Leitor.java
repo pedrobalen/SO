@@ -19,7 +19,7 @@ class Leitor extends Thread {
         try {
             while (true) {
                 monitor.iniciarLeitura();
-                System.out.println("Leitor " + this.getId() + " está lendo");
+                System.out.println("Leitor " + this.getId() + " esta lendo");
                 Thread.sleep(1000); 
                 monitor.finalizarLeitura();
                 Thread.sleep(1000); 
