@@ -19,7 +19,7 @@ class Escritor extends Thread {
         try {
             while (true) {
                 monitor.iniciarEscrita();
-                System.out.println("Escritor " + this.getId() + " está escrevendo");
+                System.out.println("Escritor " + this.getId() + " esta escrevendo");
                 Thread.sleep(2000); 
                 monitor.finalizarEscrita();
                 Thread.sleep(2000); 
